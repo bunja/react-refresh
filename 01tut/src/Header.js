@@ -2,14 +2,10 @@ import React from 'react';
 
 const Header = () => {
     
-    const headerStyle = {
-        backgroundColor: 'blue',
-        color: '#fff'
-    }
-
+    
     
     return (
-        <header style={headerStyle}>
+        <header >
         <h1>Groceries list</h1>
         </header>
     );
