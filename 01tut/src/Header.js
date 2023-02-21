@@ -1,14 +1,18 @@
 import React from 'react';
 
 const Header = () => {
-  return (
-    <header style={{
-        backgroundColor: 'mediumblue',
+    
+    const headerStyle = {
+        backgroundColor: 'blue',
         color: '#fff'
-    }}>
-      <h1>Groceries list</h1>
-    </header>
-  );
-}
+    }
+
+    
+    return (
+        <header style={headerStyle}>
+        <h1>Groceries list</h1>
+        </header>
+    );
+    }
 
 export default Header;
